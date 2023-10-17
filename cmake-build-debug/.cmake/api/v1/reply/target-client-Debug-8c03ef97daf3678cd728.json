@@ -1,0 +1,1090 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "client"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-D_POSIX_C_SOURCE=200809L"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-D_XOPEN_SOURCE=700"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-D_DARWIN_C_SOURCE"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-D__BSD_VISIBLE"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-invalid-command-line-argument"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-command-line-argument"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "--extra-warnings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pedantic-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Waddress"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Waggregate-return"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Walloc-zero"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Walloca"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Warith-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Warray-bounds"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wattribute-alias=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wbad-function-cast"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wbool-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wbool-operation"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-align=strict"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-function-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wchar-subscripts"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wclobbered"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcomment"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdangling-else"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdangling-pointer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdangling-pointer=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdate-time"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdeclaration-after-statement"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdisabled-optimization"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wempty-body"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wenum-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wenum-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wenum-int-mismatch"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-overflow=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-signedness"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-truncation=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-y2k"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wframe-address"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wignored-qualifiers"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-fallthrough=3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Winfinite-recursion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Winline"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wint-in-bool-context"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Winvalid-pch"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Winvalid-utf8"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wjump-misses-init"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wlogical-not-parentheses"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmain"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmaybe-uninitialized"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmemset-elt-size"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmemset-transposed-args"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmisleading-indentation"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-attributes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-braces"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-field-initializers"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-format-attribute"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-noreturn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-parameter-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmultistatement-macros"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wnested-externs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wold-style-declaration"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wopenacc-parallelism"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wopenmp-simd"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpacked"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpacked-not-aligned"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wparentheses"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-sign"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wredundant-decls"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wrestrict"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wreturn-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsequence-point"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow=compatible-local"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow=global"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow=local"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshift-negative-value"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsizeof-array-div"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsizeof-pointer-div"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsizeof-pointer-memaccess"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstack-protector"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-aliasing"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-aliasing=3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-flex-arrays"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstring-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wswitch"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wswitch-default"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wswitch-enum"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsync-nand"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtautological-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtrampolines"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtrigraphs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtrivial-auto-var-init"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtsan"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunknown-pragmas"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-but-set-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-but-set-variable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-const-variable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-const-variable=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-function"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-label"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-macros"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-value"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-variable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvariadic-macros"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvector-operation-performance"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvolatile-register-var"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wxor-used-as-pow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wzero-length-bounds"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wbidi-chars=unpaired,ucn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wc++-compat"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wabsolute-value"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Waddress-of-packed-member"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Warray-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wattribute-warning"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wattributes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wbuiltin-macro-redefined"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcomments"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcpp"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdeprecated"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdeprecated-declarations"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdiv-by-zero"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wduplicate-decl-specifier"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wendif-labels"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-extra-args"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-nonliteral"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-zero-length"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfree-nonheap-object"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wignored-attributes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-function-declaration"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-int"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimport"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wincompatible-pointer-types"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wint-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wint-to-pointer-cast"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmultichar"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wnarrowing"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-WNSObject-attribute"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wodr"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Woverflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Woverride-init"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-to-int-cast"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpragmas"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpsabi"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wreturn-local-addr"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshift-count-negative"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshift-count-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshift-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsizeof-array-argument"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-attribute=const"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-attribute=malloc"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-attribute=noreturn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-attribute=pure"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wswitch-bool"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunicode"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unknown-warning-option"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "--analyzer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fanalyzer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fanalyzer-transitivity"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fanalyzer-verbosity=3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-analyzer-too-complex"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-analyzer-fd-leak"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fvar-tracking"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fvar-tracking-assignments"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-gcolumn-info"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=address"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=leak"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=undefined"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=shift"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=shift-exponent"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=shift-base"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=integer-divide-by-zero"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=unreachable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=vla-bound"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=null"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=signed-integer-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=bounds"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=bounds-strict"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=alignment"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=float-divide-by-zero"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=float-cast-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=nonnull-attribute"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=returns-nonnull-attribute"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=bool"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=enum"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=pointer-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize=builtin"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsanitize-address-use-after-scope"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fharden-compares"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fharden-conditional-branches"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-protector-all"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-clash-protection"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-delete-null-pointer-checks"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstrict-flex-arrays"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "client::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=shift -fsanitize=shift-exponent -fsanitize=shift-base -fsanitize=integer-divide-by-zero -fsanitize=unreachable -fsanitize=vla-bound -fsanitize=null -fsanitize=signed-integer-overflow -fsanitize=bounds -fsanitize=bounds-strict -fsanitize=alignment -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fsanitize=nonnull-attribute -fsanitize=returns-nonnull-attribute -fsanitize=bool -fsanitize=enum -fsanitize=pointer-overflow -fsanitize=builtin -fsanitize-address-use-after-scope -fharden-compares -fharden-conditional-branches -fstack-protector-all -fstack-clash-protection -fno-delete-null-pointer-checks -fno-omit-frame-pointer -fstrict-flex-arrays",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "client",
+	"nameOnDisk" : "client",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "client.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,5 @@
+/home/linayang/CLionProjects/Assignment3Final/cmake-build-debug/CMakeFiles/server.dir
+/home/linayang/CLionProjects/Assignment3Final/cmake-build-debug/CMakeFiles/client.dir
+/home/linayang/CLionProjects/Assignment3Final/cmake-build-debug/CMakeFiles/format.dir
+/home/linayang/CLionProjects/Assignment3Final/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/linayang/CLionProjects/Assignment3Final/cmake-build-debug/CMakeFiles/rebuild_cache.dir

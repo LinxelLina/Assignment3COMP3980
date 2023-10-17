@@ -1,0 +1,7 @@
+/home/linayang/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/linayang/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/linayang/CLionProjects/Assignment3Final -B /home/linayang/CLionProjects/Assignment3Final/cmake-build-debug
+-- Compiler being used: /usr/bin/gcc
+C Compiler: /usr/bin/gcc
+COMPILER_NAME: gcc
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/linayang/CLionProjects/Assignment3Final/cmake-build-debug
