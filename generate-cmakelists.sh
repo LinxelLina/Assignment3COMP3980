@@ -3,54 +3,6 @@
 # Exit the script if any command fails
 set -e
 
-c_compiler=""
-clang_format_name="clang-format"
-clang_tidy_name="clang-tidy"
-cppcheck_name="cppcheck"
-
-# Function to display script usage
-usage()
-{
-    echo "Usage: $0 -c <C compiler> [-f <clang-format>] [-t <clang-tidy>] [-k <cppcheck>]"
-    echo "  -c c compiler     Specify the c compiler name (e.g. gcc or clang)"
-    echo "  -f clang-format   Specify the clang-format name (e.g. clang-tidy or clang-tidy-17)"
-    echo "  -t clang-tidy     Specify the clang-tidy name (e.g. clang-tidy or clang-tidy-17)"
-    echo "  -k cppcheck       Specify the cppcheck name (e.g. cppcheck)"
-    exit 1
-}
-
-# Parse command-line options using getopt
-while getopts ":c:f:t:k:" opt; do
-  case $opt in
-    c)
-      c_compiler="$OPTARG"
-      ;;
-    f)
-      clang_format_name="$OPTARG"
-      ;;
-    t)
-      clang_tidy_name="$OPTARG"
-      ;;
-    k)
-      cppcheck_name="$OPTARG"
-      ;;
-    \?)
-      echo "Invalid option: -$OPTARG" >&2
-      usage
-      ;;
-    :)
-      echo "Option -$OPTARG requires an argument." >&2
-      usage
-      ;;
-  esac
-done
-
-# Check if the compiler argument is provided
-if [ -z "$c_compiler" ]; then
-  echo "Error: c compiler argument (-c) is required."
-  usage
-fi
-
 # Output file for CMakeLists.txt
 input_file="files.txt"
 output_file="CMakeLists.txt"
@@ -147,6 +99,11 @@ generate_cmake_content() {
 
   # Common compiler flags
   echo "set(STANDARD_FLAGS" >> "$output_file"
+  echo "    -D_POSIX_C_SOURCE=200809L" >> "$output_file"
+  echo "    -D_XOPEN_SOURCE=700" >> "$output_file"
+  echo "    -D_GNU_SOURCE" >> "$output_file"
+  echo "    -D_DARWIN_C_SOURCE" >> "$output_file"
+  echo "    -D__BSD_VISIBLE" >> "$output_file"
   echo "    -Werror" >> "$output_file"
   echo ")" >> "$output_file"
   echo "" >> "$output_file"
@@ -218,7 +175,7 @@ generate_cmake_content() {
   echo "" >> "$output_file"
   echo "    # Add a custom command to delete .gch files after the analysis" >> "$output_file"
   echo "    add_custom_command(" >> "$output_file"
-  echo "        TARGET main POST_BUILD" >> "$output_file"
+  echo "        TARGET $first_target POST_BUILD" >> "$output_file"
   echo "        COMMAND \${CMAKE_COMMAND} -E remove \${CMAKE_SOURCE_DIR}/*.gch" >> "$output_file"
   echo "        COMMENT \"Removing .gch files\"" >> "$output_file"
   echo "    )" >> "$output_file"
@@ -234,7 +191,5 @@ generate_cmake_content() {
   echo ")" >> "$output_file"
   echo "" >> "$output_file"
 }
-
-cmake -S . -B build -DCMAKE_C_COMPILER="$c_compiler" -DCLANG_FORMAT_NAME="$clang_format_name" -DCLANG_TIDY_NAME="$clang_tidy_name" -DCPPCHECK_NAME="$cppcheck_name"
 
 exit $?
